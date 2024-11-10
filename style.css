@@ -3,6 +3,7 @@ body {
 	margin: 0%;
 	padding: 0%;
 	height: auto;
+	text-align: justify;
 }
 
 .main {
@@ -11,9 +12,9 @@ body {
 }
 .content {
 	display: flex;
+	height: 100vh;
 	width: 65vw;
 	justify-content: space-between;
-
 	flex-direction: column;
 }
 
@@ -61,4 +62,23 @@ body {
 	border-radius: 10px;
 	color: white;
 	background: grey;
+}
+
+.main-section {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 50px;
+	margin-right: 50px;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	flex-grow: initial;
+	gap: 25px;
+}
+
+.content-section {
+	color: white;
+	background: grey;
+
+	padding: 20px;
+	border-radius: 50px;
 }
